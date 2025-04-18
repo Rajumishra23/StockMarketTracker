@@ -1,0 +1,82 @@
+header{
+    background-color:darkblue;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+body{
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+}
+
+#search {
+    background-color: white;
+    color: black;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    background-color:green;
+    color:white;
+    font-size:20px;
+    border-radius: 5px;
+    font-weight:bold;
+}
+button:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+    padding: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#stock-search{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    text-align:center;
+}
+#stock-info {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    width: 70%; 
+    text-align: center; 
+}
+
+#stock-info p {
+    font-size: 18px; 
+    margin: 10px 0; 
+}
+
+#section{
+    text-align:center;
+    margin: 0;
+    padding:0;
+}
+
+ main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    #stock-search {
+        width: 80%;
+    }
+    button {
+        font-size: 16px;
+    }
+}
